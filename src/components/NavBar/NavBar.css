@@ -1,0 +1,30 @@
+.navDiv{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.navHeading{
+    color: rgb(43, 65, 104);
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home, .cart{
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.cartCount {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.active{
+    color: red
+}
